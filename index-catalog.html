@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>Sedona</title>
+    <link href="css/style.css" rel="stylesheet">
   </head>
   <body>
     <!-- Навигация сайта -->
@@ -11,21 +12,21 @@
   		  <nav class="main-navigation">
     			<ul>
     			  <li class="info">
-    			    <a href="#">Информация</a>
+    			    <a href="#" class="title-2">Информация</a>
     			  </li>
     			  <li class="media">
-    			    <a href="#">Фото и видео</a>
+    			    <a href="#" class="title-2">Фото и видео</a>
     			  </li>
     			  <li class="logo">
     			    <a href="#">
-    				  <img src="http://placehold.it/150x100" width="" height="" alt="Здесь должна быть картинка">
+    				  <img src="img/logo-nav.png" width="138" height="70" alt="Sedona"/>
     				  </a>
     			  </li>
     			  <li class="state-map">
-    			    <a href="#">Карта штата</a>
+    			    <a href="#" class="title-2">Карта штата</a>
     			  </li>
     			  <li class="hotels">
-    			    <a href="#">Гостиницы</a>
+    			    <a href="#" class="title-2">Гостиницы</a>
     			  </li>
     			</ul>
   		  </nav>
@@ -38,30 +39,30 @@
         <form>
           <!-- Фильтр по инфраструктуре -->
           <fieldset class="infrastructure">
-            <legend>Инфраструктура:</legend>
+            <legend class="title-4 white">Инфраструктура:</legend>
               <input type="checkbox" name="structure" id="pool" checked>
-              <label for="pool">Бассейн</label>
+              <label for="pool" class="white">Бассейн</label>
               <input type="checkbox" name="structure" id="parking">
-              <label for="parking">Парковка</label>
+              <label for="parking" class="white">Парковка</label>
               <input type="checkbox" name="structure" id="internet">
-              <label for="internet">WI-FI</label>
+              <label for="internet" class="white">WI-FI</label>
           </fieldset>
           <!-- Фильтр по типу жилья -->
           <fieldset class="housing">
-            <legend>Тип жилья:</legend>
+            <legend class="title-4 white">Тип жилья:</legend>
               <input type="checkbox" name="house" id="hotel" checked>
-              <label for="hotel">Гостиница</label>
+              <label for="hotel" class="white">Гостиница</label>
               <input type="checkbox" name="house" id="motel" checked>
-              <label for="motel">Мотель</label>
+              <label for="motel" class="white">Мотель</label>
               <input type="checkbox" name="house" id="apartment" checked>
-              <label for="apartment">Апартаменты</label>
+              <label for="apartment" class="white">Апартаменты</label>
           </fieldset>
         </form>
         <div class="price-filter">
           <form>
             <!-- Фильтр по цене за сутки -->
             <fieldset class="cost">
-              <legend>Стомость в сутки (Р):</legend>
+              <legend class="title-4 white">Стомость в сутки (Р):</legend>
               <input type="text" name="price" value="от 0" id="from">
               <input type="text" name="price" value="до 3000" id="to">
               <input type="range" name="price" min="" max="">
@@ -72,13 +73,20 @@
       </div>
       <!-- Блок с сортировкой отелей -->
       <div class="hotel-list">
-        <b class="search">Найдено: 3</b>
+        <b class="search title-1">Найдено: 3</b>
         <div class="sorting">
-          <b>Сортировка:</b>
+          <b class="title-5">Сортировка:</b>
           <ul>
-            <li>По цене</li>
-            <li>По типу</li>
-            <li>По рейтингу</li>
+            <li сlass="active">
+              <a href="#" class="title-5">По цене</a>
+            </li>
+            <button type="button" name="button"></button>
+            <li>
+              <a href="#" class="title-5">По типу</a>
+            </li>
+            <li>
+              <a href="#" class="title-5">По рейтингу</a>
+            </li>
           </ul>
           <a href="#" class="btn up" ></a>
           <a href="#" class="btn down"></a>
@@ -88,8 +96,8 @@
       <div class="hotel">
         <article class="house">
           <div class="description">
-            <img src="http://placehold.it/150x100" alt="Здесь должна быть картинка"/>
-            <b>Amara Resort & Spa</b>
+            <img src="img/hotel-1.jpg" width="135" height="90"/>
+            <b class="title-1">Amara Resort & Spa</b>
             <span>Гостиница</span>
             <span>От 3500 р.</span>
           </div>
@@ -109,8 +117,8 @@
         </article>
         <article class="house">
           <div class="description">
-            <img src="http://placehold.it/150x100" alt="Здесь должна быть картинка"/>
-            <b>Desert Quail Inn</b>
+            <img src="img/hotel-2.jpg" width="135" height="90"/>
+            <b class="title-1">Desert Quail Inn</b>
             <span>Мотель</span>
             <span>От 2000 р.</span>
           </div>
@@ -126,8 +134,8 @@
         </article>
         <article class="house">
           <div class="description">
-            <img src="http://placehold.it/150x100" alt="Здесь должна быть картинка"/>
-            <b>Villas at Poco Diablo</b>
+            <img src="img/hotel-3.jpg" width="135" height="90"/>
+            <b class="title-1">Villas at Poco Diablo</b>
             <span>Апартаменты</span>
             <span>От 4000 р.</span>
           </div>
@@ -148,16 +156,18 @@
     <footer class="main-footer">
       <div class="footer-container">
         <section class="footer-tag">
-          <p>#visitsedona</p>
+          <p class="title-1">#visitsedona</p>
         </section>
         <section class="footer-social">
-          <a class="social-btn social-btn-tw" href="#">Twitter</a>
-          <a class="social-btn social-btn-fb" href="#">Facebook</a>
-          <a class="social-btn social-btn-ytb" href="#">Youtube</a>
+          <a class="social-btn social-btn-tw" href="https://twitter.com/">Twitter</a>
+          <a class="social-btn social-btn-fb" href="https://facebook.com/">Facebook</a>
+          <a class="social-btn social-btn-ytb" href="https://youtube.com/">Youtube</a>
         </section>
         <section class="copyright">
-          <p>Website by</p>
-          <img src="http://placehold.it/70x70" alt="Здесь должна быть картинка"/>
+          <p class="title-2">Website by</p>
+          <a href="https://htmlacademy.ru/">
+            <img src="img/academy.png" alt="HTMLAcademy" width="113" height="39"/>
+          </a>
         </section>
       </div>
     </footer>

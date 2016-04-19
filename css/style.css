@@ -1,0 +1,51 @@
+body {
+  font-size: 14px;
+  line-height: 21px;
+  color: black;
+  font-weight: normal;
+  font-family: "PTSans", "Arial", "sans-serif";
+}
+
+.title-1 {
+  font-size: 21px;
+  line-height: 26px;
+  color: black;
+  font-weight: bold;
+}
+
+.title-2 {
+  font-size: 14px;
+  line-height: 21px;
+  color: black;
+  font-weight: bold;
+}
+
+.title-3 {
+  font-size: 30x;
+  line-height: 26px;
+  color: black;
+  font-weight: bold;
+}
+
+.title-4 {
+  font-size: 14px;
+  line-height: 21px;
+  color: black;
+  font-weight: bold;
+}
+
+.title-5 {
+  font-size: 12px;
+  line-height: 18px;
+  color: black;
+}
+
+.white {
+  color: white;
+}
+/*
+размер шрифта,
+высоту строки,
+цвет шрифта,
+жирность шрифта,
+гарнитуру (название шрифта).

@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>Sedona</title>
+    <link href="css/style.css" rel="stylesheet">
   </head>
   <body>
     <!-- Навигация сайта -->
@@ -10,15 +11,15 @@
       <div class="container">
   		  <nav class="main-navigation">
     			<ul>
-    			  <li><a href="#">Информация</a></li>
-    			  <li><a href="#">Фото и видео</a></li>
+    			  <li><a href="#" class="title-2">Информация</a></li>
+    			  <li><a href="#" class="title-2">Фото и видео</a></li>
     			  <li>
-    			    <a href="#">
-    				  <img src="http://placehold.it/150x100" width="" height="" alt="Здесь должна быть картинка"/>
+    			    <a href="#home">
+    				  <img src="img/logo-nav.png" width="138" height="70" alt="Sedona"/>
               </a>
             </li>
-    			  <li><a href="#">Карта штата</a></li>
-    			  <li><a href="#">Гостиницы</a></li>
+    			  <li><a href="#" class="title-2">Карта штата</a></li>
+    			  <li><a href="#" class="title-2">Гостиницы</a></li>
     			</ul>
   		  </nav>
       </div>
@@ -26,10 +27,10 @@
 	   <!-- Картинка и описание -->
     <main class="container">
       <div class="index-welcome">
-        <img src="http://placehold.it/150x100" alt="Здесь должна быть картинка" />
+        <img src="img/background-index.jpg" width="1200" height="591" />
       </div>
       <div class="index-title">
-        <h1>Седона - небольшой городок в Аризоне,
+        <h1 class="title-1">Седона - небольшой городок в Аризоне,
             заслуживающий большего!</h1>
         <p>
           Рассмотрим 5 причин, по которым седона круче чем гранд каньон!
@@ -38,34 +39,37 @@
       <!-- Причины и картинки, не уверена, нужны ли div для секций -->
       <div class="reason-item reason-img">
         <section class="reason-1">
-          <b>Настоящий городок</b>
-          <span> - № 1 - </span>
-          <p>
+          <b class="title-1 white">Настоящий городок</b>
+          <span class="white"> - № 1 - </span>
+          <p class="white">
             Седона - не аттракцион для туристов,
             там течет своя жизнь
           </p>
         </section>
         <section class="reason-pic right">
-          <img src="http://placehold.it/150x100" alt="Здесь должна быть картинка" />
+          <img src="img/pic-1.png" alt="Здесь должна быть картинка" width="800" height="256" />
         </section>
       </div>
       <div class="advantages">
         <section class="house">
-          <b>Жилье</b>
+          <img src="img/icon-home.png" width="75" height="72" />
+          <b class="title-1">Жилье</b>
           <p>
             Рекомендуем пожить в настоящем
             мотеле, все как в кино!
           </p>
         </section>
         <section class="food">
-          <b>Еда</b>
+          <img src="img/icon-food.png" width="74" height="70" />
+          <b class="title-1">Еда</b>
           <p>
             Всегда заказывайте фирменный бургер,
             Вы не разочаруетесь!
           </p>
         </section>
         <section class="souvenirs">
-          <b>Сувениры</b>
+          <img src="img/icon-suvenir.png" width="64" height="76"/>
+          <b class="title-1">Сувениры</b>
           <p>
             Не только китайского, но и местного
             производства!
@@ -74,13 +78,13 @@
       </div>
       <div class="reason-item reason-img">
         <section class="reason-pic left">
-          <img src="http://placehold.it/150x100" alt="Здесь должна быть картинка" />
+          <img src="img/pic-2.png" alt="Здесь должна быть картинка" width="800" height="256" />
         </section>
         <section class="reason-1">
-          <b>Там есть
+          <b class="title-1 white">Там есть
             мост дьявола</b>
-          <span> - № 2 - </span>
-          <p>
+          <span class="white"> - № 2 - </span>
+          <p class="white">
             Да, по нему можно пройти! Если конечно
             вы осмелитесь
           </p>
@@ -88,24 +92,24 @@
       </div>
       <div class="advantages">
         <section class="place">
-          <b>Небольшая площать</b>
-          <span> - № 3 - </span>
+          <b class="title-1">Небольшая площать</b>
+          <span > - № 3 - </span>
           <p>
             Все достопримечательности
             находятся очень близко
           </p>
         </section>
         <section class="road">
-          <b>Красивая дорога</b>
-          <span> - № 4 - </span>
+          <b class="title-1">Красивая дорога</b>
+          <span > - № 4 - </span>
           <p>
             Ехать в Седону из Лас-Вегаса совсем
             не скучно!
           </p>
         </section>
         <section class="tourist">
-          <b>Мало туристов</b>
-          <span> - № 5 - </span>
+          <b class="title-1">Мало туристов</b>
+          <span > - № 5 - </span>
           <p>
             Большинство едет в Гранд Каньон и
             толпится там
@@ -113,23 +117,23 @@
         </section>
       </div>
       <div class="interesting">
-        <b>Заинтересовались?</b>
+        <b class="title-3">Заинтересовались?</b>
         <p>
           Укажите предполгаемые даты поездки,
           и мы покажем Вам лучшие предложения гостиниц в Седоне
         </p>
         <div class="search-hidden">
-            <b>Поиск гостиницы в Седоне</b>
+            <b class="title-1 white">Поиск гостиницы в Седоне</b>
         </div>
         <!-- Скрытая форма-->
         <form class="hidden" >
-          <label for="check">Дата заезда:</label>
+          <label for="check" class="title-2">Дата заезда:</label>
           <input type="date" name="check" id="check">
-          <label for="checkout">Дата выезда:</label>
+          <label for="checkout" class="title-2">Дата выезда:</label>
           <input type="date" name="checkout" id="checkout">
-          <label for="adult">Взрослые</label>
+          <label for="adult" class="title-2">Взрослые</label>
           <input type="number" name="adult" id="adult">
-          <label for="child">Дети:</label>
+          <label for="child" class="title-2">Дети:</label>
           <input type="number" name="child" id="child">
           <input type="button" name="btn" value="Найти">
         </form>
@@ -141,16 +145,18 @@
     <footer class="main-footer">
       <div class="footer-container">
         <section class="footer-tag">
-          <p>#visitsedona</p>
+          <p class="title-2">#visitsedona</p>
         </section>
         <section class="footer-social">
-          <a class="social-btn social-btn-tw" href="#">Twitter</a>
-          <a class="social-btn social-btn-fb" href="#">Facebook</a>
-          <a class="social-btn social-btn-ytb" href="#">Youtube</a>
+          <a class="social-btn social-btn-tw" href="https://twitter.com/">Twitter</a>
+          <a class="social-btn social-btn-fb" href="https://facebook.com/">Facebook</a>
+          <a class="social-btn social-btn-ytb" href="https://youtube.com/">Youtube</a>
         </section>
         <section class="copyright">
           <p>Website by</p>
-          <img src="http://placehold.it/70x70" alt=""/>
+          <a href="https://htmlacademy.ru/">
+            <img src="img/academy.png" alt="HTMLAcademy" width="113" height="39"/>
+          </a>
         </section>
       </div>
     </footer>
