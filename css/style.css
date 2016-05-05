@@ -437,6 +437,7 @@ img.logo{
 }
 .search-hidden .date{
   padding-left: 15px;
+  box-sizing: border-box;
   text-transform: uppercase;
   font-weight: bold;
 }
@@ -622,6 +623,9 @@ img.logo{
 .sort li:last-child:active{
   сolor: #000000;
 }
+.sort-btn a{
+  position: relative;
+}
 .sort-btn .btn::before{
   content: '';
   position: absolute;
@@ -630,8 +634,8 @@ img.logo{
   background-repeat: no-repeat;
 }
 .btn.up::before{
-  top: 318px;
-  right: 122px;
+  top: 19px;
+  right: -17px;
   width: 11px;
   height: 10px;
   background-position: -221px -152px;
@@ -647,8 +651,8 @@ img.logo{
   background-position: -218px -192px;
 }
 .btn.down::before{
-  top: 317px;
-  right: 99px;
+  top: 18px;
+  right: -4px;
   width: 11px;
   height: 10px;
   background-position: -179px -67px;
