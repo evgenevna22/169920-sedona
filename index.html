@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>Sedona</title>
+    <link rel="stylesheet" href="css/normalize.css">
     <link href="css/style.css" rel="stylesheet">
     <link href='https://fonts.googleapis.com/css?family=PT+Sans:400,700&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
   </head>
@@ -11,14 +12,12 @@
 
     <!-- Навигация сайта -->
   	  <header class="main-header">
-
     		  <nav class="main-navigation">
       			<ul>
-      			  <li><a href="index.html" class="title-2">Информация</a></li>
+      			  <li><a class="title-2 active">Информация</a></li>
       			  <li><a href="#" class="title-2">Фото и видео</a></li>
       			  <li>
       			    <img class="logo" src="img/logo-nav.png" width="138" height="70" alt="Sedona"/>
-
               </li>
       			  <li><a href="#" class="title-2">Карта штата</a></li>
       			  <li><a href="index-catalog.html" class="title-2">Гостиницы</a></li>
@@ -28,19 +27,19 @@
   	   <!-- Картинка и описание -->
       <main>
         <div class="index-welcome">
-          <img src="img/background-index.jpg" width="1200" height="591" alt="Sedona"/>
+          <img src="img/background-index.jpg" width="1200" height="508" alt="Sedona"/>
         </div>
         <div class="index-title">
-          <h1 class="title-1">Седона - небольшой городок в Аризоне,
+          <h1 class="title-1">Седона — небольшой городок в Аризоне,
               заслуживающий большего!</h1>
           <p>
-            Рассмотрим 5 причин, по которым седона круче чем гранд каньон!
+            Рассмотрим 5 причин, по которым седона круче, чем гранд каньон!
           </p>
         </div>
         <!-- Причины и картинки, не уверена, нужны ли div для секций -->
         <div class="reason clearfix">
           <section class="reason-1 left">
-            <h2 class="title-1">Настоящий городок</h2>
+            <h2 class="title-1">Настоящий<br> городок</h2>
             <span> — №1 — </span>
             <p>
               Седона - не аттракцион для туристов,<br>
@@ -53,7 +52,7 @@
         </div>
         <div class="features clearfix">
           <section class="feature home">
-            <img src="img/icon-home.png" width="75" height="72" />
+            <img src="img/icon-home.png" width="75" height="70" />
             <h2 class="title-1">Жилье</h2>
             <p>
               Рекомендуем пожить в настоящем
@@ -69,7 +68,7 @@
             </p>
           </section>
           <section class="feature souvenirs">
-            <img src="img/icon-suvenir.png" width="64" height="76"/>
+            <img src="img/icon-suvenir.png" width="64" height="70"/>
             <h2 class="title-1">Сувениры</h2>
             <p>
               Не только китайского, но и местного
@@ -82,7 +81,7 @@
             <img src="img/pic-2.png" alt="Здесь должна быть картинка" width="800" height="256" />
           </section>
           <section class="reason-1 right">
-            <h2 class="title-1">Там есть мост дьявола</h2>
+            <h2 class="title-1">Там есть<br> мост дьявола</h2>
             <span> — №2 — </span>
             <p>
               Да, по нему можно пройти! Если конечно<br>
@@ -130,28 +129,35 @@
         </div>
           <!-- Скрытая форма-->
         <div class="hidden-form">
-          <form class="search-hidden" >
+          <form class="search-hidden">
+            <div class="input-in">
             <label for="check" class="title-2">Дата заезда:</label>
-            <input class="date" type="date" name="check" id="check">
+            <input class="date" type="text" name="check" placeholder="24 апреля 2016" id="check">
+            </div>
+            <div class="input-out">
             <label for="checkout" class="title-2">Дата выезда:</label>
-            <input class="date" type="date" name="checkout" id="checkout">
-            <label for="adult" class="title-2">Взрослые</label>
-            <input class="number" type="number" name="adult" id="adult">
+            <input class="date" type="text" name="checkout" placeholder="4 июля 2016" id="checkout">
+            </div>
+            <div class="input-adult left">
+            <label for="adult" class="title-2">Взрослые:</label>
+            <input class="number adult" type="text" name="adult" placeholder="2" id="adult">
+            </div>
+            <div class="input-child left">
             <label for="child" class="title-2">Дети:</label>
-            <input class="number" type="number" name="child" id="child">
+            <input class="number child" type="text" name="child" placeholder="0" id="child">
+            </div>
+            <div class="input-btn">
             <input class="search-btn" type="button" name="btn" value="Найти">
+            </div>
           </form>
         </div>
-        <!--<div class="map">
-          <img alt="map" src="img/map.png" width="1200" height="593">
-        </div>-->
       </main>
 
-      <footer>
+      <footer class="main-footer main-footer-map">
         <div class="map">
-          <img alt="map" src="img/map.png" width="1200" height="593">
+          <!--<img alt="map" src="img/map.png" width="1200" height="593">-->
         </div>
-        <div class="main-footer clearfix">
+        <div class="footer-column clearfix">
           <section class="block tag">
             <h2 class="title-1">#visitsedona</h2>
           </section>
@@ -164,7 +170,7 @@
             </a>
           </section>
           <section class="block copyright">
-            <p>Website by</p>
+            <a href="https://htmlacademy.ru/">Website by</a>
           </section>
         </div>
       </footer>

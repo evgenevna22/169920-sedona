@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>Sedona</title>
+    <link rel="stylesheet" href="css/normalize.css">
     <link href="css/style.css" rel="stylesheet">
     <link href='https://fonts.googleapis.com/css?family=PT+Sans:400,700&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
   </head>
@@ -10,25 +11,17 @@
     <div class="container clearfix">
     <!-- Навигация сайта -->
   	  <header class="main-header">
-  		  <nav class="main-navigation">
-    			<ul>
-    			  <li class="info">
-    			    <a href="index.html" class="title-2">Информация</a>
-    			  </li>
-    			  <li class="media">
-    			    <a href="#" class="title-2">Фото и видео</a>
-    			  </li>
-    			  <li class="logo">
-    				  <img src="img/logo-nav.png" width="138" height="70" alt="Sedona"/>
-    			  </li>
-    			  <li class="state-map">
-    			    <a href="#" class="title-2">Карта штата</a>
-    			  </li>
-    			  <li class="hotels">
-    			    <a href="index-catalog.html" class="title-2">Гостиницы</a>
-    			  </li>
-    			</ul>
-  		  </nav>
+        <nav class="main-navigation">
+          <ul>
+            <li><a href="index.html" class="title-2">Информация</a></li>
+            <li><a href="#" class="title-2">Фото и видео</a></li>
+            <li>
+              <img class="logo" src="img/logo-nav.png" width="138" height="70" alt="Sedona"/>
+            </li>
+            <li><a href="#" class="title-2">Карта штата</a></li>
+            <li><a class="title-2 active">Гостиницы</a></li>
+          </ul>
+        </nav>
   		</header>
 
       <main>
@@ -104,14 +97,16 @@
                 <a href="#" class="active title-5">По цене</a>
               </li>
               <li>
-                <a href="#" class="title-5">По типу</a>
+                <a href="#" class="noactive title-5">По типу</a>
               </li>
               <li>
-                <a href="#" class="title-5">По рейтингу</a>
+                <a href="#" class="noactive title-5">По рейтингу</a>
               </li>
             </ul>
-            <a href="#" class="btn up" ></a>
-            <a href="#" class="btn down"></a>
+            <div class="sort-btn right">
+              <a href="#" class="btn up" ></a>
+              <a href="#" class="btn down"></a>
+          </div>
         </section>
         <!-- Найденные отели -->
         <section class="hotel clearfix">
@@ -120,7 +115,9 @@
               <img src="img/hotel-1.jpg" width="135" height="90"/>
             </div>
             <div class="description">
-              <h2 class="title-1">Amara Resort & Spa</h2>
+              <h2 class="title-1">
+                <a href="#">Amara Resort & Spa</a>
+              </h2>
               <div class="about-hotel">
                 <span>Гостиница</span>
                 <span>От 3500 р.</span>
@@ -147,7 +144,9 @@
               <img src="img/hotel-2.jpg" width="135" height="90"/>
             </div>
             <div class="description">
-              <h2 class="title-1">Desert Quail Inn</h2>
+              <h2 class="title-1">
+                <a href="#">Desert Quail Inn</a>
+              </h2>
               <div class="about-hotel">
                 <span>Мотель</span>
                 <span>От 2000 р.</span>
@@ -170,7 +169,10 @@
               <img src="img/hotel-3.jpg" width="135" height="90"/>
             </div>
             <div class="description">
-              <h2 class="title-1">Villas at Poco Diablo</h2>
+              <h2 class="title-1">
+                <a href="#">Villas at Poco Diablo
+                </a>
+              </h2>
               <div class="about-hotel">
               <span>Апартаменты</span>
               <span>От 4000 р.</span>
@@ -206,7 +208,7 @@
             </a>
           </section>
           <section class="block copyright">
-            <p>Website by</p>
+            <a href="https://htmlacademy.ru/">Website by</a>
           </section>
         </div>
       </footer>
