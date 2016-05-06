@@ -19,7 +19,7 @@
               <img class="logo" src="img/logo-nav.png" width="138" height="70" alt="Sedona"/>
             </li>
             <li><a href="#" class="title-2">Карта штата</a></li>
-            <li><a class="title-2 active">Гостиницы</a></li>
+            <li class="padding"><a class="title-2 active">Гостиницы</a></li>
           </ul>
         </nav>
   		</header>
@@ -30,56 +30,62 @@
           <form>
             <!-- Фильтр по инфраструктуре -->
             <fieldset class="filter infrastructure left">
-              <legend class="title-4">Инфраструктура:</legend>
+              <h2 class="title-4">Инфраструктура:</h2>
               <ul>
                 <li>
-                  <input type="checkbox" name="structure" id="pool" checked>
-                  <label for="pool" class="icon-check-on"></label>
+                  <input class="checked" type="checkbox" name="structure" id="pool" checked>
                   <label for="pool">Бассейн</label>
                 </li>
                 <li>
-                  <input type="checkbox" name="structure" id="parking">
-                  <label for="pool" class="icon-check-off"></label>
+                  <input class="check" type="checkbox" name="structure" id="parking" disabled>
                   <label for="parking">Парковка</label>
                 </li>
                 <li>
                   <input type="checkbox" name="structure" id="internet">
-                  <label for="pool" class="icon-check-off"></label>
                   <label for="internet">WI-FI</label>
               </li>
               </ul>
             </fieldset>
             <!-- Фильтр по типу жилья -->
             <fieldset class="filter housing left">
-              <legend class="title-4">Тип жилья:</legend>
+              <h2 class="title-4">Тип жилья:</h2>
               <ul>
                 <li>
                   <input type="checkbox" name="house" id="hotel" checked>
-                  <label for="apartment" class="icon-check-on"></label>
                   <label for="hotel">Гостиница</label>
                 </li>
                 <li>
                   <input type="checkbox" name="house" id="motel" checked>
-                  <label for="apartment" class="icon-check-on"></label>
                   <label for="motel">Мотель</label>
                 </li>
                 <li>
-                  <input type="checkbox" name="house" id="apartment" checked>
-                  <label for="apartment" class="icon-check-on"></label>
+                  <input type="checkbox" name="house" id="apartment" disabled checked>
                   <label for="apartment">Апартаменты</label>
               </li>
               </ul>
             </fieldset>
           </form>
-          <div class="price-filter">
+          <div class="price-filter right">
             <form>
               <!-- Фильтр по цене за сутки -->
-              <fieldset class="filter-cost right">
-                <legend class="title-4">Стомость в сутки (Р):</legend>
-                <input type="text" name="price" value="от 0" id="from">
-                <input type="text" name="price" value="до 3000" id="to">
-                <input type="range" name="price" min="" max="">
-                <input type="button" name="btn" value="Показать">
+              <fieldset class="filter-cost">
+                <h2 class="title-4">Стомость в сутки (Р):</h2>
+                <div class="price-controls">
+                  <label class="min-price">от
+                    <input type="text" name="min-price" value="0">
+                  </label>
+                  <label class="max-price">до
+                    <input type="text" name="max-price" value="3000">
+                  </label>
+                </div>
+                <div class="range-controls">
+                  <div class="scale">
+                    <div class="bar"></div>
+                  </div>
+                  <div class="range-toggle range-toggle-min"></div>
+                  <div class="range-toggle range-toggle-max"></div>
+                </div>
+                <button type="submit" class="btn-transparent">Показать</button>
               </fieldset>
             </form>
           </div>
