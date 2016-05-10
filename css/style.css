@@ -271,7 +271,6 @@ img.logo{
   float: right;
 }
 .reason{
-  height: 256px;
   background: #81b3d2;
 }
 .reason-1{
@@ -328,9 +327,6 @@ img.logo{
   margin-bottom: 58px;
   margin-left: 20px;
   margin-right: 20px;
-}
-.search-form{
-  height: 292px;
 }
 .interesting{
   width: 500px;
@@ -570,6 +566,7 @@ img.logo{
   margin-top: -4px;
   margin-left: -3px;
   margin-bottom: 25px;
+  font-size: 16px;
 }
 .filter li{
   margin-bottom: 26px;
@@ -579,7 +576,7 @@ img.logo{
   padding: 0;
 }
 .infrastructure{
-  margin-right: 137px;
+  margin-right: 120px;
 }
 input[type="checkbox"]{
   display: none;
@@ -819,13 +816,6 @@ input[type="checkbox"]:checked:disabled + label::before{
   height: 10px;
   background-position: -179px -67px;
 }
-.btn.down:hover{
-  background-position: -179px -107px;
-}
-.btn.down:active{
-  background-position: -179px -67px;
-}
-
 .hotel{
   width: 1200px;
   text-align: left;
