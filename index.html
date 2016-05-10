@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <title>Sedona</title>
     <link rel="stylesheet" href="css/normalize.css">
-    <link href="css/style.css" rel="stylesheet">
+    <link href="css/min-style.css" rel="stylesheet">
     <link href='https://fonts.googleapis.com/css?family=PT+Sans:400,700&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
   </head>
   <body>
@@ -14,7 +14,7 @@
   	  <header class="main-header">
     		  <nav class="main-navigation">
       			<ul>
-      			  <li><a class="title-2 active">Информация</a></li>
+      			  <li><a href="#" class="title-2 active">Информация</a></li>
       			  <li><a href="#" class="title-2">Фото и видео</a></li>
       			  <li>
       			    <img class="logo" src="img/logo-nav.png" width="138" height="70" alt="Sedona"/>
@@ -60,7 +60,7 @@
             </p>
           </section>
           <section class="feature food">
-            <img src="img/icon-food.png" width="74" height="70" />
+            <img src="img/icon-food.png" width="74" height="70" alt=""/>
             <h2 class="title-1">Еда</h2>
             <p>
               Всегда заказывайте фирменный бургер,<br>
@@ -124,9 +124,7 @@
               и мы покажем Вам лучшие предложения гостиниц в Седоне
             </p>
           </div>
-          <div class="search">
-              <a href="#" class="title-1">Поиск гостиницы в Седоне</a>
-          </div>
+          <a href="form.html" class="title-1 search">Поиск гостиницы в Седоне</a>
         </div>
           <!-- Скрытая форма-->
         <div class="hidden-form">
@@ -154,7 +152,7 @@
             <span class="icon-plus"></span>
             </div>
             <div class="input-btn">
-            <input class="search-btn" type="button" name="btn" value="Найти">
+            <button class="search-btn" type="submit">Найти</button>
             </div>
           </form>
         </div>
@@ -162,7 +160,7 @@
 
       <footer class="main-footer main-footer-map">
         <div class="map">
-          <!--<img alt="map" src="img/map.png" width="1200" height="593">-->
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d52384.95626673283!2d-111.79359417553536!3d34.854725548017335!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x872da132f942b00d%3A0x5548c523fa6c8efd!2z0KHQtdC00L7QvdCwLCDQkNGA0LjQt9C-0L3QsCA4NjMzNiwg0KHQqNCQ!5e0!3m2!1sru!2sru!4v1462632859149" width="1200" height="593" allowfullscreen></iframe>
         </div>
         <div class="footer-column clearfix">
           <section class="block tag">
@@ -182,5 +180,6 @@
         </div>
       </footer>
     </div>
+    <script src="js/min-main.js"></script>
 	</body>
 </html>

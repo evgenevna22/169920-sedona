@@ -13,146 +13,146 @@ font-weight: bold;
 body{
   margin: 0;
   padding: 0;
+  font-weight: normal;
   font-size: 14px;
   line-height: 21px;
-  text-transform: uppercase;
-  text-align: center;
   font-family: 'PT Sans', 'Arial', sans-serif;
-  font-weight: normal;
+  text-align: center;
+  text-transform: uppercase;
   color: #000;
   background: #f2f2f2;
 }
 .sprite{
-    background-image: url(spritesheet.png);
-    background-repeat: no-repeat;
-    display: block;
+  display: block;
+  background-image: url(spritesheet.png);
+  background-repeat: no-repeat;
 }
 
 .sprite-icon-calendar{
-    width: 21px;
-    height: 22px;
-    background-position: -15px -15px;
+  width: 21px;
+  height: 22px;
+  background-position: -15px -15px;
 }
 
 .sprite-icon-calendar-active{
-    width: 21px;
-    height: 22px;
-    background-position: -66px -15px;
+  width: 21px;
+  height: 22px;
+  background-position: -66px -15px;
 }
 .sprite-icon-calendar-hvr{
-    width: 21px;
-    height: 22px;
-    background-position: -117px -15px;
+  width: 21px;
+  height: 22px;
+  background-position: -117px -15px;
 }
 .sprite-icon-check{
-    width: 22px;
-    height: 22px;
-    background-position: -168px -15px;
+  width: 22px;
+  height: 22px;
+  background-position: -168px -15px;
 }
 .sprite-icon-check-hvr{
-    width: 22px;
-    height: 22px;
-    background-position: -15px -67px;
+  width: 22px;
+  height: 22px;
+  background-position: -15px -67px;
 }
 .sprite-icon-checked{
-    width: 26px;
-    height: 22px;
-    background-position: -67px -67px;
+  width: 26px;
+  height: 22px;
+  background-position: -67px -67px;
 }
 .sprite-icon-checked-hvr{
-    width: 26px;
-    height: 22px;
-    background-position: -123px -67px;
+  width: 26px;
+  height: 22px;
+  background-position: -123px -67px;
 }
 .sprite-icon-down{
-    width: 11px;
-    height: 10px;
-    background-position: -179px -67px;
+  width: 11px;
+  height: 10px;
+  background-position: -179px -67px;
 }
 .sprite-icon-down-hvr{
-    width: 11px;
-    height: 10px;
-    background-position: -179px -107px;
+  width: 11px;
+  height: 10px;
+  background-position: -179px -107px;
 }
 .sprite-icon-fc{
-    width: 10px;
-    height: 19px;
-    background-position: -15px -147px;
+  width: 10px;
+  height: 19px;
+  background-position: -15px -147px;
 }
 .sprite-icon-fc-active{
-    width: 10px;
-    height: 19px;
-    background-position: -55px -147px;
+  width: 10px;
+  height: 19px;
+  background-position: -55px -147px;
 }
 .sprite-icon-minus{
-    width: 12px;
-    height: 3px;
-    background-position: -95px -147px;
+  width: 12px;
+  height: 3px;
+  background-position: -95px -147px;
 }
 .sprite-icon-minus-active{
-    width: 12px;
-    height: 3px;
-    background-position: -137px -147px;
+  width: 12px;
+  height: 3px;
+  background-position: -137px -147px;
 }
 .sprite-icon-minus-hvr{
-    width: 12px;
-    height: 3px;
-    background-position: -179px -147px;
+  width: 12px;
+  height: 3px;
+  background-position: -179px -147px;
 }
 .sprite-icon-plus{
-    width: 11px;
-    height: 11px;
-    background-position: -95px -180px;
+  width: 11px;
+  height: 11px;
+  background-position: -95px -180px;
 }
 .sprite-icon-plus-active{
-    width: 11px;
-    height: 11px;
-    background-position: -136px -180px;
+  width: 11px;
+  height: 11px;
+  background-position: -136px -180px;
 }
 .sprite-icon-plus-hvr{
-    width: 11px;
-    height: 11px;
-    background-position: -177px -180px;
+  width: 11px;
+  height: 11px;
+  background-position: -177px -180px;
 }
 .sprite-icon-star{
-    width: 18px;
-    height: 17px;
-    background-position: -220px -15px;
+  width: 18px;
+  height: 17px;
+  background-position: -220px -15px;
 }
 .sprite-icon-tw{
-    width: 17px;
-    height: 15px;
-    background-position: -220px -62px;
+  width: 17px;
+  height: 15px;
+  background-position: -220px -62px;
 }
 .sprite-icon-tw-active{
-    width: 17px;
-    height: 15px;
-    background-position: -221px -107px;
+  width: 17px;
+  height: 15px;
+  background-position: -221px -107px;
 }
 .sprite-icon-up{
-    width: 11px;
-    height: 10px;
-    background-position: -221px -152px;
+  width: 11px;
+  height: 10px;
+  background-position: -221px -152px;
 }
 .sprite-icon-up-active{
-    width: 11px;
-    height: 10px;
-    background-position: -218px -192px;
+  width: 11px;
+  height: 10px;
+  background-position: -218px -192px;
 }
 .sprite-icon-up-hvr{
-    width: 11px;
-    height: 10px;
-    background-position: -15px -232px;
+  width: 11px;
+  height: 10px;
+  background-position: -15px -232px;
 }
 .sprite-icon-ytb{
-    width: 20px;
-    height: 16px;
-    background-position: -56px -232px;
+  width: 20px;
+  height: 16px;
+  background-position: -56px -232px;
 }
 .sprite-icon-ytb-active{
-    width: 20px;
-    height: 16px;
-    background-position: -106px -232px;
+  width: 20px;
+  height: 16px;
+  background-position: -106px -232px;
 }
 *{
   margin: 0;
@@ -160,25 +160,25 @@ body{
   list-style: none;
 }
 .title-1{
+  font-weight: bold;
   font-size: 21px;
   line-height: 21px;
-  font-weight: bold;
   margin: 0;
 }
 .title-2{
+  font-weight: bold;
   font-size: 14px;
   line-height: 21px;
-  font-weight: bold;
 }
 .title-3{
+  font-weight: bold;
   font-size: 30px;
   line-height: 26px;
-  font-weight: bold;
 }
 .title-4{
+  font-weight: bold;
   font-size: 14px;
   line-height: 21px;
-  font-weight: bold;
 }
 .title-5{
   font-size: 12px;
@@ -201,12 +201,15 @@ body{
   font-size: 0;
 }
 .main-navigation li{
-  width: 20%;
   display: inline-block;
+  width: 20%;
   vertical-align: top;
   font-weight: bold;
   font-size: 14px;
   background-color: #fff;
+}
+.main-navigation li:not(:nth-of-type(3)) {
+  padding: 17px 0;
 }
 .main-navigation li:nth-of-type(3){
   height: 56px;
@@ -215,11 +218,9 @@ body{
   padding-left: 17px;
 }
 .main-navigation a{
-  display: block;
-  height: 56px;
+  display: inline-block;
   vertical-align: top;
   text-decoration: none;
-  line-height: 54px;
   color: #000;
 }
 .main-navigatiоn a:nth-of-type(2){
@@ -261,6 +262,7 @@ img.logo{
 }
 .index-welcome > img{
   height: 508px;
+  background-color: #d6e7f1;
 }
 .left{
   float: left;
@@ -274,8 +276,8 @@ img.logo{
 }
 .reason-1{
   width: 400px;
-  background: #81b3d2;
   color: #fff;
+  background: #81b3d2;
 }
 .reason-1 > h2{
   width: 60%;
@@ -291,6 +293,7 @@ img.logo{
 .reason-pic{
   width: 800px;
   height: 256px;
+  background-color: #ad8c81;
 }
 .feature{
   float: left;
@@ -321,10 +324,10 @@ img.logo{
   margin-bottom: 24px;
 }
 .fact > p{
-    margin-top: 21px;
-    margin-bottom: 58px;
-    margin-left: 20px;
-    margin-right: 20px;
+  margin-top: 21px;
+  margin-bottom: 58px;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 .search-form{
   height: 292px;
@@ -344,26 +347,58 @@ img.logo{
   line-height: 24px;
 }
 .search{
-  width: 568px;
+  display: block;
+  width: 508px;
   margin: 0 auto;
-  padding-top: 30px;
-  padding-bottom: 30px;
-  color: #fff;
-  background: #766357;
-}
-.search > a{
+  padding: 30px;
+  font-size: 21px;
   line-height: 26px;
+  text-align: center;
   text-decoration: none;
-  color: #fff;
+  color: #ffffff;
+  background-color: #766357;
+}
+/*Скрытая форма */
+@keyframes jump{
+  0% {
+    transform: translateX(-500px);
+  }
+  80% {
+    transform: translateX(40px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+@keyframes error{
+  0%, 100% {
+    transform: translateX(0);
+  }
+  10%, 30%, 50%, 70%, 90% {
+    transform: translateX(-10px);
+  }
+  20%, 40%, 60%, 80% {
+    transform: translateX(10px);
+  }
 }
 .hidden-form{
-  display: block;
+  display: none;
   width: 568px;
   position: absolute;
   margin-left: 316px;
   background: #fff;
   box-shadow: 0 7px 15px rgba(0, 1, 1, 0.15);
   z-index: 100;
+}
+.show-form{
+  display: block;
+  animation-name: jump;
+  animation-duration: 0.6s;
+}
+.show-form-error{
+  display: block;
+  animation-name: error;
+  animation-duration: 0.8s;
 }
 .search-hidden{
   text-align: left;
@@ -406,6 +441,7 @@ img.logo{
   width: 21px;
   height: 22px;
   background-position: -15px -15px;
+  cursor: pointer;
 }
 .input-in .icon-calendar:hover,
 .input-out .icon-calendar:hover{
@@ -425,6 +461,7 @@ img.logo{
   width: 12px;
   height: 3px;
   background-position: -95px -147px;
+  cursor: pointer;
 }
 .input-child .icon-minus{
   right: 88px;
@@ -447,6 +484,7 @@ img.logo{
   width: 11px;
   height: 11px;
   background-position: -95px -180px;
+  cursor: pointer;
 }
 .input-adult .icon-plus:hover,
 .input-child .icon-plus:hover{
@@ -471,6 +509,10 @@ img.logo{
 .input-child > label{
   margin-right: 18px;
 }
+::-webkit-input-placeholder {opacity: 1;}
+::-moz-placeholder {opacity: 1;}
+:-moz-placeholder {opacity: 1;}
+:-ms-input-placeholder {opacity: 1;}
 .search-hidden
 .date,
 .number{
@@ -503,6 +545,7 @@ img.logo{
   color: white;
   background-color: #81b3d2;
   border: none;
+  cursor: pointer;
 }
 .search-btn:hover{
   background-color: #669ec0;
@@ -555,7 +598,7 @@ input[type="checkbox"] + label::before{
   width: 26px;
   height: 22px;
   position: absolute;
-  top: 9px;
+  top: 10px;
   left: 9px;
   transform: translate(-50%, -50%);
   background-image: url('../img/icon-sprite.png');
@@ -708,6 +751,7 @@ input[type="checkbox"]:checked:disabled + label::before{
 .sort,
 .sort li{
   display: inline-block;
+  vertical-align: middle;
 }
 .found{
   margin-right: 44px;
@@ -719,7 +763,11 @@ input[type="checkbox"]:checked:disabled + label::before{
 .sorting{
   margin-right: 35px;
 }
+.sorting h2{
+  margin-top: 5px;
+}
 .sort li{
+  margin-top: 4px;
   margin-right: 29px;
 }
 .sort a{
@@ -734,14 +782,14 @@ input[type="checkbox"]:checked:disabled + label::before{
 }
 .sort .noactive:active{
   color: #000;
+  border: none;
 }
-.sort li:nth-of-type(2),
-.sort li:last-child{
+.sort .noactive{
   border-bottom: 1px dotted #81b3d2;
 }
 .sort li:nth-of-type(2):active,
 .sort li:last-child:active{
-  сolor: #000000;
+  color: #000;
 }
 .sort-btn{
   position: relative;
@@ -761,7 +809,7 @@ input[type="checkbox"]:checked:disabled + label::before{
 .btn.up:hover{
   background-position: -15px -232px;
 }
-.btn.up:focus{
+.btn.up:active{
   background-position: -218px -192px;
 }
 .btn.down{
@@ -774,6 +822,10 @@ input[type="checkbox"]:checked:disabled + label::before{
 .btn.down:hover{
   background-position: -179px -107px;
 }
+.btn.down:active{
+  background-position: -179px -67px;
+}
+
 .hotel{
   width: 1200px;
   text-align: left;
@@ -807,6 +859,9 @@ input[type="checkbox"]:checked:disabled + label::before{
 }
 .description  .name:active{
   color: #b2b2b2;
+}
+.about-hotel span{
+  vertical-align: middle;
 }
 .about-hotel span:first-child{
   display: inline-block;
@@ -898,6 +953,9 @@ input[type="checkbox"]:checked:disabled + label::before{
   background: #e2e7d0 url(../img/map.png) no-repeat 50% 100%;
   z-index: 9;
 }
+.map iframe{
+  border: 0;
+}
 .footer-column{
   position: absolute;
   z-index: 10;
@@ -984,6 +1042,7 @@ input[type="checkbox"]:checked:disabled + label::before{
 .copyright a::after{
   content: '';
   display: inline-block;
+  vertical-align: baseline;
   position: relative;
   width: 113px;
   height: 39px;

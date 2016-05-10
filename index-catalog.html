@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <title>Sedona</title>
     <link rel="stylesheet" href="css/normalize.css">
-    <link href="css/style.css" rel="stylesheet">
+    <link href="css/min-style.css" rel="stylesheet">
     <link href='https://fonts.googleapis.com/css?family=PT+Sans:400,700&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
   </head>
   <body>
@@ -13,10 +13,10 @@
   	  <header class="main-header">
         <nav class="main-navigation">
           <ul>
-            <li><a href="index.html" class="title-2">Информация</a></li>
+            <li><a href="#" class="title-2">Информация</a></li>
             <li><a href="#" class="title-2">Фото и видео</a></li>
             <li>
-              <img class="logo" src="img/logo-nav.png" width="138" height="70" alt="Sedona"/>
+              <a href="index.html"><img class="logo" src="img/logo-nav.png" width="138" height="70" alt="Sedona"/></a>
             </li>
             <li><a href="#" class="title-2">Карта штата</a></li>
             <li class="padding"><a class="title-2 active">Гостиницы</a></li>
@@ -71,11 +71,11 @@
               <fieldset class="filter-cost">
                 <h2 class="title-4">Стомость в сутки (Р):</h2>
                 <div class="price-controls">
-                  <label class="min-price">от
-                    <input type="text" name="min-price" value="0">
+                  <label class="min-price" for="toprice">от
+                    <input type="text" name="min-price" value="0" id="toprice">
                   </label>
-                  <label class="max-price">до
-                    <input type="text" name="max-price" value="3000">
+                  <label class="max-price" for="fromprice">до
+                    <input type="text" name="max-price" value="3000" id="fromprice">
                   </label>
                 </div>
                 <div class="range-controls">
